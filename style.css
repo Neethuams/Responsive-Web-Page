@@ -1,0 +1,225 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.bttn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #F84646;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #F84646;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.bttn:hover{
+    background-color: transparent;
+    color: #F84646;
+    transition: 0.3s all ease;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header .navbar .inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-top: 35px;
+}
+header .navbar .inner ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+header .navbar .inner ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header .navbar .inner ul li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.3s all ease;
+}
+header .navbar .inner ul li a:hover{
+    color: #F84646;
+    transition: 0.3s all ease;
+}
+header .navbar .inner ul li.active a{
+    color: #F84646;
+}
+
+
+
+.wrapper .banner{
+    min-height: 750px;
+    background-image: url("./images/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.wrapper .banner .content{
+    max-width: 665px;
+}
+.wrapper .banner .content h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 82px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.wrapper .banner .content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.wrapper .banner .content .form-inner{
+    position: relative;
+    display: inline-block;
+}
+.wrapper .banner .content .form-inner input{
+    width: 502px;
+    height: 72px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    background-color: #fff;
+    outline: none;
+    box-shadow: none;
+    padding: 18px 32px;
+    padding-right: 158px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.wrapper .banner .content .form-inner input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+.wrapper .banner .content .form-inner input:focus,
+.wrapper .banner .content .form-inner input:active{
+    border: 1px solid #F84646;
+}
+.wrapper .banner .content .form-inner .bttn{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    bottom: 6px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+/* section1 */
+
+.wrapper .section1{
+    padding-top: 120px;
+    padding-bottom: 140px;
+}
+.wrapper .section1 h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.wrapper .section1 .container > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    max-width: 1000px;
+}
+.wrapper .section1 .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 70px;
+}
+.wrapper .section1 .items .item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc((100% * (1 / 3)) - (140px / 3) );
+    padding: 20px;
+}
+.wrapper .section1 .items .item img{
+    height: 76px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wrapper .section1 .items .item h4{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.wrapper .section1 .items .item p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+}
+ /* section 2 */
+
+ .wrapper .section2{
+    background-color: #F84646;
+    padding-top: 68px;
+    padding-bottom: 78px;
+ }
+ .wrapper .section2 .bg{
+
+}
