@@ -1,3 +1,3 @@
 # Responsive-Web-Page
 
-URL : [https://responsive-web-page.vercel.app/]
+URL : https://responsive-web-page.vercel.app/
